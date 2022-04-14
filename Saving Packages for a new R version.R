@@ -18,7 +18,6 @@ saveRDS(ip, "CurrentPackages.rds")
 
 
 # After updating base R, load file and reinstall
-
 ip <- readRDS("CurrentPackages.rds")
 
 installed.packages(ip[,1])
