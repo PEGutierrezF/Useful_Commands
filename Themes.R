@@ -3,7 +3,7 @@
 
 
 # ---------------------------------------------
-# Change Themes
+# Changing Themes
 # 13 Apr 2022
 # Pablo E. Gutiérrez-Fonseca
 # pabloe.gutierrezfonseca@gmail.com
