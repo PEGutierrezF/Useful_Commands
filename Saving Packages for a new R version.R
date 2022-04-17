@@ -17,6 +17,19 @@ ip
 saveRDS(ip, "CurrentPackages.rds")
 
 
+# Update R ----------------------------------------------------------------
+
+# installing/loading the package:
+if(!require(installr)) {
+  install.packages("installr"); 
+  require(installr)
+} #load / install+load installr
+
+# using the package:
+updateR()
+
+
+
 # After updating base R, load file and reinstall
 ip <- readRDS("CurrentPackages.rds")
 
